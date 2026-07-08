@@ -2,22 +2,21 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-dist/
-build/
+/dist/
+/build/
 .venv/
 venv/
 *.egg
 
-# Node / Next.js
+# Node / VS Code Extension
 node_modules/
-.next/
 out/
-
-# Trace files (user data, not code)
-traces/
+*.vsix
 
 # IDE
 .vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
 .idea/
 *.swp
 *.swo
